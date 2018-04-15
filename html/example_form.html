@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/layout.css">
+</head>
+<body>
+<h1>垂直表单</h1>
+<form role="form">
+    <div class="form-group">
+        <label for="name" class="sr-only">名称</label>
+        <input type="text" class="form-control" id="name"
+               placeholder="请输入名称">
+    </div>
+    <div class="form-group">
+        <label for="inputfile2">文件输入</label>
+        <input type="file" id="inputfile2">
+        <p class="help-block">这里是块级帮助文本的实例。</p>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> 请打勾
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default">提交</button>
+</form>
+<h1>内联表单</h1>
+<form class="form-inline" role="form">
+    <div class="form-group">
+        <label class="sr-only" for="name2">名称</label>
+        <input type="text" class="form-control" id="name2"
+               placeholder="请输入名称">
+    </div>
+    <div class="form-group">
+        <label class="sr-only" for="inputfile">文件输入</label>
+        <input type="file" id="inputfile">
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> 请打勾
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default">提交</button>
+</form>
+<h1>水平表单</h1>
+<!--<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <label for="firstname" class="col-sm-2 control-label">名字</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="firstname"
+                   placeholder="请输入名字">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="lastname" class="col-sm-2 control-label">姓</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="lastname"
+                   placeholder="请输入姓">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 请记住我
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">登录</button>
+        </div>
+    </div>
+</form>-->
+<h1>input输入框</h1>
+<form role="form">
+    <div class="form-group relative" style="overflow: hidden">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="text">text</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="text" id="text" class="form-control">
+        </div>
+    </div></form>
+<!--    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="password">password</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="password" id="password" class="form-control">
+        </div>
+    </div>
+    &lt;!&ndash;<div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="datetime">datetime</label>
+        <div class="col-xs-6">
+            <input type="datetime" id="datetime" class="form-control">
+        </div>
+    </div>&ndash;&gt;
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize"
+               for="datetime-local">datetime-local</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="datetime-local" id="datetime-local" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="date">date</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="date" id="date" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="month">month</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="month" id="month" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="time">time</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="time" id="time" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="week">week</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="week" id="week" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="number">number</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="number" id="number" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="email">email</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="email" id="email" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="url">url</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="url" id="url" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="search">search</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="search" id="search" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="tel">tel</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="tel" id="tel" class="form-control">
+        </div>
+    </div>
+    <div class="form-group relative">
+        <label class="control-label col-xs-3 text-right left-bottom text-capitalize" for="color">color</label>
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="color" id="color" class="form-control">
+        </div>
+    </div>
+</form>-->
+<h1>文本框Textarea</h1>
+<form role="form">
+    <div class="form-group">
+        <label for="textarea" class="text-capitalize">textarea</label>
+        <textarea id="textarea" class="form-control col-xs-6" rows="3"></textarea>
+    </div>
+</form>
+</body>
+</html>
