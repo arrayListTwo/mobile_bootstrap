@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../../style/libs/bootstrap.min.css">
+    <style>
+        .center-in-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <script>
+        setTimeout(function () {
+            //这个可以关闭安卓系统的手机
+            document.addEventListener('WeixinJSBridgeReady', function () {
+                WeixinJSBridge.call('closeWindow');
+            }, false);
+            //这个可以关闭ios系统的手机
+            WeixinJSBridge.call('closeWindow');
+        }, 3000);
+    </script>
+</head>
+<body>
+<div class="center-in-center" style="text-align:center;">
+    <img src="../../source/face_success.gif" style="vertical-align:middle;"/>
+    <p style="font-size: 1.5em;" class="text-primary">恭喜您，提交成功..</p>
+</div>
+<script src="../../script/jquery-3.3.1.min.js"></script>
+<script src="../../script/layer/mobile/layer.js"></script>
+</body>
+</html>

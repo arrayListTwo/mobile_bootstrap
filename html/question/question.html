@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../../style/libs/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .must {
+            color: red;
+        }
+
+        .question {
+            background-color: #F1F1F1;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 3px;
+        }
+
+        .content {
+            padding: 10px 6px;
+            margin: 20px 2px 20px 2px;
+        }
+
+        .hint {
+            font-weight: normal;
+        }
+    </style>
+    <script>
+        function testOne() {
+            layer.open({
+                title: ['姓名',
+                        'background-color:#2B2B2B;color:#fff'],
+                anim: 'up'
+                ,
+                shadeClose: false,
+                content: '<input type="text" placeholder="姓名" class="form-control" id="one-name-layer">'
+                ,
+                btn: ['确定'],
+                yes: function () {
+                    if ($("#one-name-layer").val() === '') {
+                        return false;
+                    } else {
+                        $("#one-name").val($("#one-name-layer").val());
+                        layer.closeAll();
+                    }
+                }
+            });
+        }
+
+        function testTwo() {
+            layer.open({
+                title: ['姓名',
+                        'background-color:#2B2B2B;color:#fff'],
+                anim: 'up'
+                ,
+                shadeClose: false,
+                content: '<input type="text" placeholder="姓名" class="form-control" id="two-name-layer">'
+                ,
+                btn: ['确定'],
+                yes: function () {
+                    if ($("#two-name-layer").val() === '') {
+                        return false;
+                    } else {
+                        $("#two-name").val($("#two-name-layer").val());
+                        layer.closeAll();
+                    }
+                }
+            });
+        }
+
+        function testThree() {
+            layer.open({
+                title: ['姓名',
+                        'background-color:#2B2B2B;color:#fff'],
+                anim: 'up'
+                ,
+                shadeClose: false,
+                content: '<input type="text" placeholder="姓名" class="form-control" id="three-name-layer">'
+                ,
+                btn: ['确定'],
+                yes: function () {
+                    if ($("#three-name-layer").val() === '') {
+                        return false;
+                    } else {
+                        $("#three-name").val($("#three-name-layer").val());
+                        layer.closeAll();
+                    }
+                }
+            });
+        }
+
+        function testFour() {
+            layer.open({
+                title: ['姓名',
+                        'background-color:#2B2B2B;color:#fff'],
+                anim: 'up'
+                ,
+                shadeClose: false,
+                content: '<input type="text" placeholder="姓名" class="form-control" id="four-name-layer">'
+                ,
+                btn: ['确定'],
+                yes: function () {
+                    if ($("#four-name-layer").val() === '') {
+                        return false;
+                    } else {
+                        $("#four-name").val($("#four-name-layer").val());
+                        layer.closeAll();
+                    }
+                }
+            });
+        }
+
+        function testFive() {
+            layer.open({
+                title: ['姓名',
+                        'background-color:#2B2B2B;color:#fff'],
+                anim: 'up'
+                ,
+                shadeClose: false,
+                content: '<input type="text" placeholder="姓名" class="form-control" id="five-name-layer">'
+                ,
+                btn: ['确定'],
+                yes: function () {
+                    if ($("#five-name-layer").val() === '') {
+                        return false;
+                    } else {
+                        $("#five-name").val($("#five-name-laeyr").val());
+                        layer.closeAll();
+                    }
+                }
+            });
+        }
+
+        function valid() {
+            var oneName = $('input:radio[name="one"]:checked').val();
+            var twoName = $('input:radio[name="two"]:checked').val();
+            var threeName = $('input:radio[name="three"]:checked').val();
+            var fourName = $('input:radio[name="four"]:checked').val();
+            var fiveName = $('input:radio[name="five"]:checked').val();
+            console.log(oneName);
+            console.log(twoName);
+            console.log(threeName);
+            console.log(fourName);
+            console.log(fiveName);
+            if (typeof (oneName) === "undefined" || typeof (twoName) === "undefined" || typeof (threeName) === "undefined" || typeof (fourName) === "undefined" || typeof (fiveName) === "undefined") {
+                layer.open({
+                    content: '存在未选择必选项'
+                    ,
+                    style: 'background-color:#09C1FF; color:#fff; border:none;' //自定风格
+                    ,
+                    time: 3
+                });
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<h3 class="text-center">问卷调查)</h3>
+<p style="margin-top: 20px; line-height: 1.6em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;调查</p>
+<form role="form" class="content" method="post" action="success.html"
+      onsubmit="return valid()">
+    <div class="form-group">
+        <p class="question">
+            1、你好，你是谁，再见？<span class="must">[必选]</span>
+        </p>
+        <input type="radio" name="one" id="one-one" value="one-satis"><label
+            for="one-one" class="control-label hint">&nbsp;&nbsp;非常满意</label>
+        <p></p>
+        <input type="radio" name="one" id="one-two" value="two-satis"><label
+            for="one-two" class="control-label hint">&nbsp;&nbsp;满意</label>
+        <p></p>
+        <input type="radio" name="one" id="one-three" value="three-satis"
+               onchange="testOne()"><label
+            for="one-three" class="control-label hint" onclick="testOne()">&nbsp;&nbsp;不满意</label>
+        <p></p>
+    </div>
+    <div class="form-group">
+        <p class="question">
+            2、你好，你是谁，再见？<span class="must">[必选]</span>
+        </p>
+        <input type="radio" name="two" id="two-one" value="one-satis"><label
+            for="two-one" class="control-label hint">&nbsp;&nbsp;非常满意</label>
+        <p></p>
+        <input type="radio" name="two" id="two-two" value="two-satis"><label
+            for="two-two" class="control-label hint">&nbsp;&nbsp;满意</label>
+        <p></p>
+        <input type="radio" name="two" id="two-three" value="three-satis"
+               onchange="testTwo()"><label
+            for="two-three" class="control-label hint" onclick="testTwo()">&nbsp;&nbsp;不满意</label>
+        <p></p>
+    </div>
+    <div class="form-group">
+        <p class="question">
+            3、你好，你是谁，再见？<span class="must">[必选]</span>
+        </p>
+        <input type="radio" name="three" id="three-one" value="one-satis"><label
+            for="three-one" class="control-label hint">&nbsp;&nbsp;非常满意</label>
+        <p></p>
+        <input type="radio" name="three" id="three-two" value="two-satis"><label
+            for="three-two" class="control-label hint">&nbsp;&nbsp;满意</label>
+        <p></p>
+        <input type="radio" name="three" id="three-three"
+               value="three-satis" onchange="testThree()"><label
+            for="three-three" class="control-label hint" onclick="testThree()">&nbsp;&nbsp;不满意</label>
+        <p></p>
+    </div>
+    <div class="form-group">
+        <p class="question">
+            4、你好，你是谁，再见？<span class="must">[必选]</span>
+        </p>
+        <input type="radio" name="four" id="four-one" value="one-satis"><label
+            for="four-one" class="control-label hint">&nbsp;&nbsp;非常满意</label>
+        <p></p>
+        <input type="radio" name="four" id="four-two" value="two-satis"><label
+            for="four-two" class="control-label hint">&nbsp;&nbsp;满意</label>
+        <p></p>
+        <input type="radio" name="four" id="four-three"
+               value="three-satis" onchange="testFour()"><label
+            for="four-three" class="control-label hint" onclick="testFour()">&nbsp;&nbsp;不满意</label>
+        <p></p>
+    </div>
+    <div class="form-group">
+        <p class="question">
+            5、你好，你是谁，再见？<span class="must">[必选]</span>
+        </p>
+        <input type="radio" name="five" id="five-one" value="one-satis"><label
+            for="five-one" class="control-label hint">&nbsp;&nbsp;非常满意</label>
+        <p></p>
+        <input type="radio" name="five" id="five-two" value="two-satis"><label
+            for="five-two" class="control-label hint">&nbsp;&nbsp;满意</label>
+        <p></p>
+        <input type="radio" name="five" id="five-three"
+               value="three-satis" onchange="testFive()"><label
+            for="five-three" class="control-label hint" onclick="testFive()">&nbsp;&nbsp;不满意</label>
+        <p></p>
+    </div>
+    <input type="hidden" name="one-name" id="one-name">
+    <input type="hidden" name="two-name" id="two-name">
+    <input type="hidden" name="three-name" id="three-name">
+    <input type="hidden" name="four-name" id="four-name">
+    <input type="hidden" name="five-name" id="five-name">
+    <input type="submit" class="btn-primary col-xs-6 col-xs-offset-3"
+           value="提交问卷" style="background-color: #1cff01;font-size: 1.5em">
+</form>
+<p></p>
+<script src="../../script/jquery-3.3.1.min.js"></script>
+<!--<script src="../script/jquery-1.10.2.min.js"></script>-->
+<script src="../../script/layer/mobile/layer.js"></script>
+</body>
+</html>
