@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap下拉菜单</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../../style/libs/bootstrap.min.css">
+</head>
+<body>
+<div class="dropdown">
+    <button class="btn btn-default" data-toggle="dropdown">
+        周星驰电影<span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-right">
+        <li>唐伯虎点秋香</li>
+        <li>大话西游</li>
+        <li>国产凌凌漆</li>
+        <li>美人鱼</li>
+    </ul>
+</div>
+<h1>菜单项添加标题</h1>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+            data-toggle="dropdown">
+        周星驰电影
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">港式老电影</li>
+        <li role="presentation" >
+            <a role="menuitem" tabindex="-1" href="#">国产凌凌漆</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">大话西游</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">
+                唐伯虎点秋香
+            </a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">新印象电影</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">美人鱼</a>
+        </li>
+    </ul>
+</div>
+<script src="../../script/jquery-3.3.1.min.js"></script>
+<script src="../../script/bootstrap.min.js"></script>
+</body>
+</html>

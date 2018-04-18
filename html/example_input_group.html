@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 输入框组</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+</head>
+<body>
+<form style="padding: 50px 30px;">
+    <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" placeholder="账号" id="name">
+    </div>
+    <p></p>
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control">
+        <span class="input-group-addon">.00</span>
+    </div>
+</form>
+
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+					<span class="input-group-addon">
+						<input type="checkbox">
+					</span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+					<span class="input-group-addon">
+						<input type="radio">
+					</span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<p></p>
+<div class="container">
+    <form role="form">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">
+							Go!
+						</button>
+					</span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+						<button class="btn btn-default" type="button">
+							Go!
+						</button>
+					</span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<p></p>
+<div class="container">
+
+
+    <form role="form">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                            下拉菜单
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">功能</a></li>
+                            <li><a href="#">另一个功能</a></li>
+                            <li><a href="#">其他</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">分离的链接</a></li>
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <div class="input-group-btn">
+                        <button type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                            下拉菜单
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="#">功能</a></li>
+                            <li><a href="#">另一个功能</a></li>
+                            <li><a href="#">其他</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">分离的链接</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<p></p>
+<script src="../script/jquery-3.3.1.min.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+</body>
+</html>

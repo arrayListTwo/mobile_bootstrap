@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9fd332d-0997-44ad-818b-47e914121066" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/glyphicon/example_glyphicon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/glyphicon/example_nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/script/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/dropdown/example_button_dropdown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/dropdown/example_dropdown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/example_btngroup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/example_input_group.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,21 +23,20 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/libs/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="4635" column="23" lean-forward="true" selection-start-line="4635" selection-start-column="23" selection-end-line="4635" selection-end-column="23" />
+            <state relative-caret-position="183">
+              <caret line="1867" column="12" lean-forward="false" selection-start-line="1867" selection-start-column="12" selection-end-line="1867" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example_glyphicon.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/glyphicon/example_glyphicon.html">
+      <file leaf-file-name="example_input_group.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/example_input_group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="112" />
+            <state relative-caret-position="75">
+              <caret line="123" column="29" lean-forward="true" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
               <folding>
-                <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +63,7 @@
       <find>form-horizontal</find>
       <find>@font-face</find>
       <find>.glyphicon:empty</find>
+      <find>dropdown-toggle</find>
     </findStrings>
     <replaceStrings>
       <replace>姓名</replace>
@@ -99,6 +95,11 @@
         <option value="$PROJECT_DIR$/html/example_glyphicon.html" />
         <option value="$PROJECT_DIR$/html/glyphicon/example_nav.html" />
         <option value="$PROJECT_DIR$/html/glyphicon/example_glyphicon.html" />
+        <option value="$PROJECT_DIR$/html/example_dropdown.html" />
+        <option value="$PROJECT_DIR$/html/example_btngroup.html" />
+        <option value="$PROJECT_DIR$/html/dropdown/example_dropdown.html" />
+        <option value="$PROJECT_DIR$/html/dropdown/example_button_dropdown.html" />
+        <option value="$PROJECT_DIR$/html/example_input_group.html" />
       </list>
     </option>
   </component>
@@ -114,8 +115,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="1" />
     <option name="width" value="994" />
     <option name="height" value="734" />
   </component>
@@ -156,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +171,12 @@
               <item name="mobile_bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="dropdown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile_bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -193,8 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,18 +224,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../layertest" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStormProject\mobile_bootstrap\html\glyphicon" />
-      <recent name="E:\WebStormProject\mobile_bootstrap\html\question" />
-      <recent name="E:\WebstormProjects\mobile_bootstrap\html" />
-      <recent name="E:\WebstormProjects\mobile_bootstrap\source" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebStormProject\mobile_bootstrap\script" />
       <recent name="E:\WebStormProject\mobile_bootstrap\style\fonts" />
       <recent name="E:\WebStormProject\mobile_bootstrap\html" />
       <recent name="E:\WebStormProject\mobile_bootstrap\source" />
       <recent name="E:\WebstormProjects\mobile_bootstrap\style\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStormProject\mobile_bootstrap\html\dropdown" />
+      <recent name="E:\WebStormProject\mobile_bootstrap\html\glyphicon" />
+      <recent name="E:\WebStormProject\mobile_bootstrap\html\question" />
+      <recent name="E:\WebstormProjects\mobile_bootstrap\html" />
+      <recent name="E:\WebstormProjects\mobile_bootstrap\source" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,27 +266,28 @@
       <updated>1523538758149</updated>
       <workItem from="1523538760337" duration="7271000" />
       <workItem from="1523721266985" duration="26948000" />
-      <workItem from="1523860745282" duration="35405000" />
+      <workItem from="1523860745282" duration="35607000" />
+      <workItem from="1524012755284" duration="14972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69624000" />
+    <option name="totallyTimeSpent" value="84798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="994" height="734" extended-state="1" />
+    <frame x="352" y="1" width="994" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46025103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -298,6 +308,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/style/libs/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115875">
+          <caret line="4635" column="23" lean-forward="true" selection-start-line="4635" selection-start-column="23" selection-end-line="4635" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/glyphicon/example_glyphicon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/libs/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83725">
@@ -383,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,49 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="237" column="34" lean-forward="true" selection-start-line="237" selection-start-column="34" selection-end-line="237" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5575#5581#0" expanded="true" />
-            <element signature="e#5581#5587#0" expanded="true" />
-            <element signature="e#5587#5593#0" expanded="true" />
-            <element signature="e#5593#5599#0" expanded="true" />
-            <element signature="e#5599#5605#0" expanded="true" />
-            <element signature="e#5605#5611#0" expanded="true" />
-            <element signature="e#5611#5617#0" expanded="true" />
-            <element signature="e#5617#5623#0" expanded="true" />
-            <element signature="e#5623#5629#0" expanded="true" />
-            <element signature="e#5995#6001#0" expanded="true" />
-            <element signature="e#6001#6007#0" expanded="true" />
-            <element signature="e#6166#6172#0" expanded="true" />
-            <element signature="e#6172#6178#0" expanded="true" />
-            <element signature="e#6397#6403#0" expanded="true" />
-            <element signature="e#6403#6409#0" expanded="true" />
-            <element signature="e#6704#6710#0" expanded="true" />
-            <element signature="e#6710#6716#0" expanded="true" />
-            <element signature="e#6875#6881#0" expanded="true" />
-            <element signature="e#6881#6887#0" expanded="true" />
-            <element signature="e#7106#7112#0" expanded="true" />
-            <element signature="e#7112#7118#0" expanded="true" />
-            <element signature="e#7419#7425#0" expanded="true" />
-            <element signature="e#7425#7431#0" expanded="true" />
-            <element signature="e#7596#7602#0" expanded="true" />
-            <element signature="e#7602#7608#0" expanded="true" />
-            <element signature="e#7837#7843#0" expanded="true" />
-            <element signature="e#7843#7849#0" expanded="true" />
-            <element signature="e#8147#8153#0" expanded="true" />
-            <element signature="e#8153#8159#0" expanded="true" />
-            <element signature="e#8321#8327#0" expanded="true" />
-            <element signature="e#8327#8333#0" expanded="true" />
-            <element signature="e#8557#8563#0" expanded="true" />
-            <element signature="e#8563#8569#0" expanded="true" />
-            <element signature="e#8867#8873#0" expanded="true" />
-            <element signature="e#8873#8879#0" expanded="true" />
-            <element signature="e#9041#9047#0" expanded="true" />
-            <element signature="e#9047#9053#0" expanded="true" />
-            <element signature="e#9277#9283#0" expanded="true" />
-            <element signature="e#9283#9289#0" expanded="true" />
-            <element signature="n#style#0;n#input#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -471,11 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,14 +462,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/zhou.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/example_img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5chars.ent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="134" column="10" lean-forward="false" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/example_design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/glyphicon/example_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/glyphicon/example_glyphicon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/example_btngroup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/dropdown/example_button_dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/example_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="-7275">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#form#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -509,71 +555,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/zhou.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/example_img.html">
+    <entry file="file://$PROJECT_DIR$/html/dropdown/example_dropdown.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5chars.ent">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="134" column="10" lean-forward="false" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/example_design.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding>
-            <element signature="e#3478#3485#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="49" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/libs/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="4635" column="23" lean-forward="true" selection-start-line="4635" selection-start-column="23" selection-end-line="4635" selection-end-column="23" />
+        <state relative-caret-position="183">
+          <caret line="1867" column="12" lean-forward="false" selection-start-line="1867" selection-start-column="12" selection-end-line="1867" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/glyphicon/example_nav.html">
+    <entry file="file://$PROJECT_DIR$/html/example_input_group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/glyphicon/example_glyphicon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="112" lean-forward="false" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="112" />
+        <state relative-caret-position="75">
+          <caret line="123" column="29" lean-forward="true" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
