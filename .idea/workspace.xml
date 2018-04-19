@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fd332d-0997-44ad-818b-47e914121066" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/nav/example_nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/nav/example_navbar.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f9fd332d-0997-44ad-818b-47e914121066" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -128,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="788" />
-    <option name="y" value="7" />
+    <option name="x" value="299" />
+    <option name="y" value="4" />
     <option name="width" value="878" />
     <option name="height" value="734" />
   </component>
@@ -323,10 +319,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96234000" />
+    <option name="totallyTimeSpent" value="96538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="788" y="7" width="878" height="734" extended-state="0" />
+    <frame x="299" y="4" width="878" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32484636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
