@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 警告框（Alerts）</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+
+</head>
+<body>
+<h2>默认的警告信息</h2>
+<div class="alert alert-success">成功！很好地完成了提交。</div>
+<div class="alert alert-info">信息！请注意这个信息。</div>
+<div class="alert alert-warning">警告！请不要提交。</div>
+<div class="alert alert-danger">错误！请进行一些更改。</div>
+<h2>可取消的警告</h2>
+<div class="alert alert-success alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert"
+            aria-hidden="true">
+        &times;
+    </button>
+    成功！很好地完成了提交。
+</div>
+<div class="alert alert-info alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert"
+            aria-hidden="true">
+        &times;
+    </button>
+    信息！请注意这个信息。
+</div>
+<div class="alert alert-warning alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert"
+            aria-hidden="true">
+        &times;
+    </button>
+    警告！请不要提交。
+</div>
+<div class="alert alert-danger alert-dismissable">
+    <button type="button" class="close" data-dismiss="alert"
+            aria-hidden="true">
+        &times;
+    </button>
+    错误！请进行一些更改。
+</div>
+<h2>警告中的链接</h2>
+<div class="alert alert-success">
+    <a href="#" class="alert-link">成功！很好地完成了提交。</a>
+</div>
+<div class="alert alert-info">
+    <a href="#" class="alert-link">信息！请注意这个信息。</a>
+</div>
+<div class="alert alert-warning">
+    <a href="#" class="alert-link">警告！请不要提交。</a>
+</div>
+<div class="alert alert-danger">
+    <a href="#" class="alert-link">错误！请进行一些更改。</a>
+</div>
+<script src="../script/jquery-3.3.1.min.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+</body>
+</html>
