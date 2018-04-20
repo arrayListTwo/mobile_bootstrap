@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 进度条</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+</head>
+<body>
+<h2>默认的进度条</h2>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+         aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+</div>
+<h2>交替的进度条</h2>
+<div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+         style="width: 90%;">
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+         style="width: 30%;">
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-warning" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+         style="width: 20%;">
+    </div>
+</div>
+<script src="../script/jquery-3.3.1.min.js"></script>
+<div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+         style="width: 10%;">
+    </div>
+</div>
+<h2>条纹的进度条</h2>
+<div class="progress progress-striped">
+    <div class="progress-bar progress-bar-success" aria-valuenow="60"
+         aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    </div>
+</div>
+<h2>动画的进度条</h2>
+<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-success" role="progressbar"
+         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+         style="width: 40%;"></div>
+</div>
+<h2>堆叠的进度条</h2>
+<div class="progress">
+    <div class="progress-bar progress-bar-success" aria-valuenow="60"
+         aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+    <div class="progress-bar progress-bar-info" aria-valuenow="60"
+         aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+    <div class="progress-bar progress-bar-warning" aria-valuenow="60"
+         aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+</div>
+<script src="../script/bootstrap.min.js"></script>
+</body>
+</html>

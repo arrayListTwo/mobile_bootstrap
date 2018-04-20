@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 列表组</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+    <style>
+        body {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h2>默认的列表组</h2>
+<ul class="list-group">
+    <li class="list-group-item">周星驰的电影</li>
+    <li class="list-group-item">大话西游</li>
+    <li class="list-group-item">国产凌凌漆</li>
+</ul>
+<h2>带有徽章的列表组</h2>
+<ul class="list-group">
+    <li class="list-group-item">
+        <span class="badge">2</span>大话西游
+    </li>
+    <li class="list-group-item">还魂夜</li>
+    <li class="list-group-item">功夫</li>
+</ul>
+<h2>向列表组添加链接</h2>
+<div class="list-group">
+    <a class="list-group-item" href="#">大话西游</a>
+    <a class="list-group-item" href="#">还魂夜</a>
+    <a class="list-group-item" href="#">功夫</a>
+</div>
+<h2>列表组自定义内容</h2>
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">
+            周星驰
+        </h4>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">周星驰电影</h4>
+        <p class="list-group-item-text">
+            大喜中透着大悲
+        </p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">周星驰粉丝</h4>
+        <p class="list-group-item-text">低调的影迷</p>
+    </a>
+</div>
+<script src="../script/jquery-3.3.1.min.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+</body>
+</html>
