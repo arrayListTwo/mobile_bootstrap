@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fd332d-0997-44ad-818b-47e914121066" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/nav/example_breadcrumb.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html/glyphicon/example_nav.html" afterPath="$PROJECT_DIR$/html/glyphicon/example_nav-hasgly.html" />
-      <change beforePath="$PROJECT_DIR$/html/nav/example_navbar.html" afterPath="$PROJECT_DIR$/html/nav/example_navbar.html" />
-    </list>
+    <list default="true" id="f9fd332d-0997-44ad-818b-47e914121066" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -55,8 +50,8 @@
       <file leaf-file-name="example_breadcrumb.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/nav/example_breadcrumb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="175">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -141,7 +136,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="278" />
     <option name="y" value="6" />
     <option name="width" value="878" />
@@ -249,15 +244,15 @@
       <workItem from="1523860745282" duration="35607000" />
       <workItem from="1524012755284" duration="14972000" />
       <workItem from="1524100572856" duration="9955000" />
-      <workItem from="1524129172601" duration="1817000" />
+      <workItem from="1524129172601" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108006000" />
+    <option name="totallyTimeSpent" value="108170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="753" extended-state="7" />
+    <frame x="278" y="6" width="878" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36755952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -637,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/nav/example_breadcrumb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="175">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
       </provider>
