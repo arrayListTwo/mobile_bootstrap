@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按钮加载效果</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../style/libs/bootstrap.min.css">
+</head>
+<body>
+<h2>加载按钮</h2>
+<button id="fat-btn" class="btn btn-primary" data-loading-text="Loading..."
+        type="button"> 加载状态
+</button>
+<script src="../script/jquery-3.3.1.min.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $("#fat-btn").click(function () {
+            $(this).button('loading');
+        });
+    });
+</script>
+</body>
+</html>
