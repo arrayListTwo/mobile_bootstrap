@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS控制导航条</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../../style/libs/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>动态标签</h2>
+    <p><strong>提示:</strong> 与 .tab-pane 和 data-toggle="tab" (data-toggle="pill" ) 一同使用, 设置标签页对应的内容随标签的切换而更改。</p>
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active"><a href="#home1">首页</a></li>
+        <li><a href="#menu4">菜单 1</a></li>
+        <li><a href="#menu5">菜单 2</a></li>
+        <li><a href="#menu6">菜单 3</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home1" class="tab-pane fade in active">
+            <h3>首页</h3>
+            <p>菜鸟教程 —— 学的不仅是技术，更是梦想！！！</p>
+        </div>
+        <div id="menu4" class="tab-pane fade">
+            <h3>菜单 4</h3>
+            <p>这是菜单 4 显示的内容。这是菜单 1 显示的内容。这是菜单 1 显示的内容。</p>
+        </div>
+        <div id="menu5" class="tab-pane fade">
+            <h3>菜单 5</h3>
+            <p>这是菜单 5 显示的内容。这是菜单 2 显示的内容。这是菜单 2 显示的内容。</p>
+        </div>
+        <div id="menu6" class="tab-pane fade">
+            <h3>菜单 6</h3>
+            <p>这是菜单 6 显示的内容。这是菜单 3 显示的内容。这是菜单 3 显示的内容。</p>
+        </div>
+    </div>
+</div>
+<script src="../../script/jquery-3.3.1.min.js"></script>
+<script src="../../script/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show')
+        });
+        $('#myTab li:eq(0) a').on('show.bs.tab', function (e) {
+            console.log("第一个标签，显示前调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(0) a').on('shown.bs.tab', function (e) {
+            console.log("第一个标签，显示后调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(1) a').on('show.bs.tab', function (e) {
+            console.log("第二个标签，显示前调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(1) a').on('shown.bs.tab', function (e) {
+            console.log("第二个标签，显示后调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(2) a').on('show.bs.tab', function (e) {
+            console.log("第三个标签，显示前调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(2) a').on('shown.bs.tab', function (e) {
+            console.log("第三个标签，显示后调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(3) a').on('show.bs.tab', function (e) {
+            console.log("第四个标签，显示前调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+        $('#myTab li:eq(3) a').on('shown.bs.tab', function (e) {
+            console.log("第四个标签，显示后调用");
+            console.log($(e.target).text()); // 激活的标签页
+            console.log($(e.relatedTarget).text()) // 前一个激活的标签页
+        });
+    });
+</script>
+</body>
+</html>
